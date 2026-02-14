@@ -66,6 +66,8 @@ The dataset contains the following attributes:
    - **Random Forest** for regression-based prediction.
    - **GRU** for sequential learning.
    - **LSTM** for capturing long-term temporal dependencies.
+   - **Hybrid LSTM–GRU Model** as the final forecasting model, combining the long-term memory capability of LSTM with the efficiency of GRU.
+     The hybrid architecture captures both long-term consumption trends and short-term fluctuations, resulting in improved prediction stability and more reliable anomaly detection.
 
 4. **Model Evaluation**  
    Predictions are compared against actual readings using standard evaluation metrics.
@@ -88,6 +90,10 @@ The dataset contains the following attributes:
 
 - **LSTM (Long Short-Term Memory)**  
   A deep learning model capable of learning long-term dependencies in time-series data.
+
+- **Hybrid LSTM–GRU Model**  
+  The hybrid LSTM–GRU model is used as the final forecasting model in BOLT, combining LSTM’s long-term memory capability with GRU’s computational efficiency to capture both long-term patterns and short-term fluctuations, improving prediction accuracy and anomaly detection reliability.
+
 
 ---
 
