@@ -1,8 +1,6 @@
 # BOLT
 
-## About this Research Project :
 
-https://github.com/user-attachments/assets/67569b86-8ac2-49f1-a91b-cf18655b6c30
 
 ---
 
